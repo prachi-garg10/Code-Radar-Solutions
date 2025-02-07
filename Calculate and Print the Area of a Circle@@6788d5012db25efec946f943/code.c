@@ -1,10 +1,10 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+#include <math.h>
 
 int main() {
-    printf("%s", welcome());
+    float radius,Area;
+    scanf("%f", &radius);
+    Area= 3.14 *radius*radius;
+    printf("Area: %.2f\n", Area);
     return 0;
 }
